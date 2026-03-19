@@ -32,16 +32,18 @@ done
 # Original Installation Commands
 git clone https://github.com/sdgamer8263-sketch/adon.git
 cd adon
-cd Email
-sudo mv /root/adon/Email/1.zip /var/www/pterodactyl/
-sudo mv /root/adon/Email/app.php /var/www/pterodactyl/config/
-sudo mv /root/adon/Email/admin.blade.php /var/www/pterodactyl/resources/views/layouts/
-sudo mv /root/adon/Email/AccountCreated.php /var/www/pterodactyl/app/Notifications/
-sudo mv /root/adon/Email/SendPasswordReset.php /var/www/pterodactyl/app/Notifications/
-sudo mv /root/adon/Email/AddedToServer.php /var/www/pterodactyl/app/Notifications/
-sudo mv /root/adon/Email/RemovedFromServer.php /var/www/pterodactyl/app/Notifications/
-sudo mv /root/adon/Email/ServerInstalled.php /var/www/pterodactyl/app/Notifications/
-sudo mv /root/adon/Email/MailTested.php /var/www/pterodactyl/app/Notifications/
+cd Er
+
+# Moving files from the 'Er' folder
+sudo mv /root/adon/Er/1.zip /var/www/pterodactyl/
+sudo mv /root/adon/Er/app.php /var/www/pterodactyl/config/
+sudo mv /root/adon/Er/admin.blade.php /var/www/pterodactyl/resources/views/layouts/
+sudo mv /root/adon/Er/AccountCreated.php /var/www/pterodactyl/app/Notifications/
+sudo mv /root/adon/Er/SendPasswordReset.php /var/www/pterodactyl/app/Notifications/
+sudo mv /root/adon/Er/AddedToServer.php /var/www/pterodactyl/app/Notifications/
+sudo mv /root/adon/Er/RemovedFromServer.php /var/www/pterodactyl/app/Notifications/
+sudo mv /root/adon/Er/ServerInstalled.php /var/www/pterodactyl/app/Notifications/
+sudo mv /root/adon/Er/MailTested.php /var/www/pterodactyl/app/Notifications/
 
 cd /var/www/pterodactyl
 yes | unzip 1.zip
